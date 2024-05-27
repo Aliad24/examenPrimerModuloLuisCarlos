@@ -65,3 +65,12 @@ Este archivo contiene un mapa del sitio web, que ayuda a los motores de búsqued
 #### assets
 
 Es la carpeta donde se guardan los archivos originales del proyecto o archivos complementarios al proyecto.
+
+## Aquí están los enlaces del proyecto en Figma
+
+En esta sección, puedes encontrar los enlaces a los diseños del proyecto en Figma. Estos enlaces te llevarán directamente a las distintas partes del diseño, facilitando la navegación y revisión del mismo.
+
+- [Enlace al diseño movil](https://www.figma.com/proto/T8eDJh549eYVnaMjaefWt4/examenPrimerModulo_LuisCarlos?page-id=0%3A1&node-id=1-3&viewport=286%2C416%2C0.25&t=NKylHatv52RDzh9V-1&scaling=scale-down)
+- [Enlace a los prototipos](https://www.figma.com/proto/T8eDJh549eYVnaMjaefWt4/examenPrimerModulo_LuisCarlos?page-id=0%3A1&node-id=1-1451&viewport=272%2C436%2C0.25&t=aVFC1LUgXo6Tp8Sk-1&scaling=scale-down)
+
+Si tienes alguna pregunta o necesitas acceso, por favor, contacta al equipo de diseño.

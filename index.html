@@ -1,69 +1,131 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- SEO = Básico -->
-    <!-- Cada página del sitio tiene que ser diferente el título y la descripción -->
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- SEO = Básico -->
+        <!-- Cada página del sitio tiene que ser diferente el título y la descripción -->
+        <title></title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
 
-    <!-- Etiquetas Open Graph y Twitter Card, para crear el SEO de Redes Sociales -->
-    <meta property="og:title" content="Título de tu página" />
-    <meta property="og:description" content="Descripción de tu página" />
-    <meta
-      property="og:image"
-      content="URL de la imagen que quieres mostrar en las redes sociales"
-    />
-    <meta property="og:url" content="URL de tu página" />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Título de tu página" />
-    <meta name="twitter:description" content="Descripción de tu página" />
-    <meta
-      name="twitter:image"
-      content="URL de la imagen que quieres mostrar en Twitter"
-    />
+        <!-- Etiquetas Open Graph y Twitter Card, para crear el SEO de Redes Sociales -->
+        <meta property="og:title" content="Título de tu página" />
+        <meta property="og:description" content="Descripción de tu página" />
+        <meta
+            property="og:image"
+            content="URL de la imagen que quieres mostrar en las redes sociales"
+        />
+        <meta property="og:url" content="URL de tu página" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Título de tu página" />
+        <meta name="twitter:description" content="Descripción de tu página" />
+        <meta
+            name="twitter:image"
+            content="URL de la imagen que quieres mostrar en Twitter"
+        />
 
-    <!-- App Web, inidicar al navegador que elementos mostrar en un JSON -->
-    <link rel="manifest" href="site.webmanifest" />
-    <!-- icono de acceso para IOS -->
-    <link rel="apple-touch-icon" href="icon.png" />
-    <!-- Recordar que favicon.ico tiene que estar en el directorio inicial -->
+        <!-- App Web, inidicar al navegador que elementos mostrar en un JSON -->
+        <link rel="manifest" href="site.webmanifest" />
+        <!-- icono de acceso para IOS -->
+        <link rel="apple-touch-icon" href="icon.png" />
+        <!-- Recordar que favicon.ico tiene que estar en el directorio inicial -->
 
-    <!-- links de estilos -->
-    <link rel="stylesheet" href="css/style.css" />
-    
-    <!-- Se cambia el tema de algunos navegadores -->
-    <meta name="theme-color" content="#fafafa" />
-    <!-- Código de las plataformas de Análisis -->
-    <script></script>
-    <!-- Scripts a cargar antes de la renderización -->
-    <script src="preloader.js"></script>
-  </head>
-  <body>
-    <div id="container">
-      <!-- *** ESTRUCTURA SEMÁNTICA *** -->
-      <!-- Header (encabezado de la página, zona superior) -->
-      <header>
-        <!-- nav (el navegador de toda la web) -->
-        <nav>
-          <a href="" class="link1">link1</a>
-          <a href="" class="link2">link2</a>
-          <a href="" class="link3">link3</a>
-          <a href="" class="link4">link4</a>
-        </nav>
-      </header>
-      <!-- Main (centro de la página, zona central) -->
-      <main>
-        <!-- section y article (posibilidades dentro de main) -->
-      </main>
-      <!-- Footer (final de la página, zona inferior) -->
-      <footer>
-        <h6>&copy;Copyright</h6>
-      </footer>
-    </div>
+        <!-- links de estilos -->
+        <link rel="stylesheet" href="css/style.css" />
 
-  </body>
+        <!-- Se cambia el tema de algunos navegadores -->
+        <meta name="theme-color" content="#fafafa" />
+        <!-- Código de las plataformas de Análisis -->
+        <script></script>
+        <!-- Scripts a cargar antes de la renderización -->
+        <script src="preloader.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <header class="header">
+                <h1 class="header__title">Basic information for the entrant</h1>
+                <p class="footer__content-parrafo">Would you like to study at Charité? Read
+                  the information on this page to know all 
+                  the aspects. All of the information is 
+                  arranged by subject.</p>
+                <section class="header__content-img">
+                    <img
+                        src="img/desktop/university.avif"
+                        alt="Foto de universidad"
+                        class="header__img"/>
+                    <h2 class="header__subtitle">Degree Programs</h2>
+                </section>
+            </header>
+
+            <main class="main__content">
+
+              <h2 class="main__title">Press releases</h2>
+              <p class="main__parrafo">The latest press releases of The Charité</p>
+
+              <section class="main__content-aticle">
+                <h2 class="main__subtitle">Successful health services research
+                  at the Charité</h2>
+                <article class="main__content-information">
+                    <a href="#"><img src="svg/arrow.svg" alt="flecha">Learn more</a>
+                    <p class="main__date">11/09/2022</p>
+                </article>
+                <div class="main__separador"></div>
+              </section>
+
+              <section class="main__content-aticle">
+                <h2 class="main__subtitle">Successful health services research
+                  at the Charité</h2>
+                <article class="main__content-information">
+                    <a href="#"><img src="svg/arrow.svg" alt="flecha">Learn more</a>
+                    <p class="main__date">11/09/2022</p>
+                </article>
+                <div class="main__separador"></div>
+              </section>
+
+              <section class="main__content-aticle">
+                <h2 class="main__subtitle">Successful health services research
+                  at the Charité</h2>
+                <article class="main__content-information">
+                    <a href="#"><img src="svg/arrow.svg" alt="flecha">Learn more</a>
+                    <p class="main__date">11/09/2022</p>
+                </article>
+                <div class="main__separador"></div>
+              </section>
+
+              <section class="main__content-aticle">
+                <h2 class="main__subtitle">Successful health services research
+                  at the Charité</h2>
+                <article class="main__content-information">
+                    <a href="#"><img src="svg/arrow.svg" alt="flecha">Learn more</a>
+                    <p class="main__date">11/09/2022</p>
+                </article>
+                <div class="main__separador"></div>
+              </section>
+              <a href="#" class="main__button">See more</a>
+            </main>
+
+            <footer class="footer">
+
+                <section class="footer__content">
+
+                  <article class="footer__content">
+                    <h2 class="footer__title">Locations / Campuses</h2>
+                    <p class="footer__content-parrafo">Here you get information and advice
+                      on all general and organizational
+                      aspects of student life</p>
+                    <a href="#" class="footer__button">Find a Campus</a>
+                  </article>
+
+                  <article class="footer__content">
+                    <h2 class="footer__title">Locations / Campuses</h2>
+                    <a href="#" class="footer__button">Find a Campus</a>
+                  </article>
+
+                </section>
+
+            </footer>
+        </div>
+    </body>
 </html>
